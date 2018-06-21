@@ -24,9 +24,7 @@ const resolveObjects = input => {
   let objTemp = {},
     i,
     objSplitValue,
-    objtronc,
-    objSplitLast,
-    objTemp2 = {};
+    objSplitLast;
   let objSplit = [];
   const inputFinal = {};
   Object.keys(input).forEach(key => {
@@ -48,3 +46,4 @@ const resolveObjects = input => {
 tests.forEach(test => {
   console.log(_.isEqual(resolveObjects(test.input), test.output));
 });
+
