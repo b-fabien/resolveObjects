@@ -1,14 +1,14 @@
 {
-  "name": "parcel-sandbox",
+  "name": "resolveObjec",
   "version": "1.0.0",
-  "description": "Simple Parcel Sandbox",
+  "description": "test de resolution d objet",
   "main": "index.html",
   "scripts": {
     "start": "parcel index.html --open",
     "build": "parcel build index.html"
   },
   "dependencies": {
-    "lodash": "4.17.10"
+    "lodash": "^4.17.10"
   },
   "devDependencies": {
     "parcel-bundler": "^1.6.1"

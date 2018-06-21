@@ -44,7 +44,6 @@ const resolveObjects = input => {
   return inputFinal;
 };
 
-
 module.exports = resolveObject;
 
 // tests.forEach(test => {
