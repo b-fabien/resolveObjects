@@ -1,24 +1,24 @@
 import _ from "lodash";
-const tests = [
-  {
-    input: {
-      a: {
-        b: {
-          c: "z"
-        }
-      },
-      "a.b.d": "y"
-    },
-    output: {
-      a: {
-        b: {
-          c: "z",
-          d: "y"
-        }
-      }
-    }
-  }
-];
+// const tests = [
+//   {
+//     input: {
+//       a: {
+//         b: {
+//           c: "z"
+//         }
+//       },
+//       "a.b.d": "y"
+//     },
+//     output: {
+//       a: {
+//         b: {
+//           c: "z",
+//           d: "y"
+//         }
+//       }
+//     }
+//   }
+// ];
 
 const resolveObjects = input => {
   let objTemp = {},
@@ -43,7 +43,11 @@ const resolveObjects = input => {
   });
   return inputFinal;
 };
-tests.forEach(test => {
-  console.log(_.isEqual(resolveObjects(test.input), test.output));
-});
+
+
+module.exports = resolveObject;
+
+// tests.forEach(test => {
+//   console.log(_.isEqual(resolveObjects(test.input), test.output));
+// });
 
