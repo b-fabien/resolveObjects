@@ -29,3 +29,6 @@ on boucle sur le tableau de la clé splité et tant que celui ci est rempli on e
 et on l'assique a une variable temporaire qui sert de retour
 Sinon si la clé a un nombre de caractère inférieur ou égale à 1 on prends l'objet en entier et on l'assigne à la variable globale 
 à chaque itération on fusionne les variables pour en retourner qu'un (variable globale finale)
+
+visible ici:
+https://codesandbox.io/s/14wlkrn09q
